@@ -3,7 +3,8 @@ import './App.css';
 // import Event_work from './React_events/Events_w.js';
 // import Props_validation1 from './props_work/props_validation1.js';
 // import Fun1 from './Abc/fun1.js';
-import Usestate from './hook_works/usestate.js';
+// import Usestate from './hook_works/usestate.js';
+import Usestate_pro from './hook_works/Usestate_pro.js';
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
     {/* <br /> */}
     {/* <Props_validation1 /> */}
     {/* <Fun1/> */}
-    <Usestate/>
+    {/* <Usestate/> */}
+    {/* <br/> */}
+    <Usestate_pro />
     
     </>
 
