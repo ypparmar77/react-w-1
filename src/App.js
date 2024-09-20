@@ -4,7 +4,11 @@ import './App.css';
 // import Props_validation1 from './props_work/props_validation1.js';
 // import Fun1 from './Abc/fun1.js';
 // import Usestate from './hook_works/usestate.js';
-import Usestate_pro from './hook_works/Usestate_pro.js';
+// import Usestate_pro from './hook_works/Usestate_pro.js';
+// import A1 from './Just_to_learn/a1.js';
+// import A2 from './Just_to_learn/a2.js';
+import Useeffect from './hook_works/Useeffect';
+
 
 function App() {
   return (
@@ -18,10 +22,13 @@ function App() {
     {/* <Fun1/> */}
     {/* <Usestate/> */}
     {/* <br/> */}
-    <Usestate_pro />
-    
-    </>
+    {/* <Usestate_pro /> */}
+    {/* <A1 name = {"apple"} /> */}
+    {/* <A2/> */}
+    <Useeffect  />
 
+
+</>
   );
 }
 

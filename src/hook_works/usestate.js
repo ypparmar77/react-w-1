@@ -11,7 +11,6 @@ function Usestate(){
         <>
         <h1>on : {on}</h1>
         <button onMouseOver={abc}>anser +</button>
-                
         </>
     )
 }
