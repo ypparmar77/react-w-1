@@ -7,8 +7,10 @@ import './App.css';
 // import Usestate_pro from './hook_works/Usestate_pro.js';
 // import A1 from './Just_to_learn/a1.js';
 // import A2 from './Just_to_learn/a2.js';
-import Useeffect from './hook_works/Useeffect';
-
+// import Useeffect from './hook_works/Useeffect';
+// import UseEffectHookComponent from './Just_to_learn/a3';
+// import Todo from './Just_to_learn/a4';
+import List1 from './Just_to_learn/a4';
 
 function App() {
   return (
@@ -25,8 +27,9 @@ function App() {
     {/* <Usestate_pro /> */}
     {/* <A1 name = {"apple"} /> */}
     {/* <A2/> */}
-    <Useeffect  />
-
+    {/* <Useeffect  /> */}
+    {/* <UseEffectHookComponent/> */}
+    <List1/>
 
 </>
   );

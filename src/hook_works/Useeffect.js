@@ -29,7 +29,7 @@ export default function Useeffect() {
          }
 
       })
-
+      
   return (
     <>
     <h1>React useEffect Hooks</h1>
@@ -38,7 +38,7 @@ export default function Useeffect() {
     <br />
     <button className='btn btn-danger ms-2' onClick={Stop}>Stop</button>
     <button className='btn btn-success ms-2' onClick={Start}>Start</button>
-    <button className='btn btn-dark ms-2 ' onClick={Remove}>Start</button>
+    <button className='btn btn-dark ms-2 ' onClick={Remove}>Remove</button>
 
     </>
   )
