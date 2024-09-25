@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 export default function UseEffectHookComponent() {
     const [count, setCount] = useState(1);
-    const [name, setName] = useState('default name');
-
+    const [name, setName] = useState('default name'); 
+ 
     // useEffect(() => {
     //     console.log('useEffect Called!');
     //     console.log(count);

@@ -1,4 +1,5 @@
 import './App.css';
+// import FormValidationDemo from './Just_to_learn/a5';
 // import Cls_com1 from './Class_Components/Components1.js';
 // import Event_work from './React_events/Events_w.js';
 // import Props_validation1 from './props_work/props_validation1.js';
@@ -10,7 +11,20 @@ import './App.css';
 // import Useeffect from './hook_works/Useeffect';
 // import UseEffectHookComponent from './Just_to_learn/a3';
 // import Todo from './Just_to_learn/a4';
-import List1 from './Just_to_learn/a4';
+// import List1 from './Just_to_learn/a4';
+// import Lists from './React Lists/Lists';
+// import SimpleFormValidation from './Just_to_learn/a5';
+// import Forms from './react_forms/forms_work1';
+// import UseRefHookComponent from './Just_to_learn/a6';
+import UseRef from './hook_works/useRef';
+
+
+
+
+
+
+
+
 
 function App() {
   return (
@@ -29,7 +43,15 @@ function App() {
     {/* <A2/> */}
     {/* <Useeffect  /> */}
     {/* <UseEffectHookComponent/> */}
-    <List1/>
+    {/* <List1/> */}
+    {/* <Lists/> */}
+    {/* <SimpleFormValidation/> */}
+    {/* <Forms/> */}
+    {/* <FormValidationDemo/> */}
+    {/* <UseRefHookComponent/> */}
+    <UseRef/>
+
+    
 
 </>
   );
