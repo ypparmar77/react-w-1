@@ -16,19 +16,14 @@ import './App.css';
 // import SimpleFormValidation from './Just_to_learn/a5';
 // import Forms from './react_forms/forms_work1';
 // import UseRefHookComponent from './Just_to_learn/a6';
-import UseRef from './hook_works/useRef';
-
-
-
-
-
-
-
-
+// import UseRef from './hook_works/useRef';
+// import Are_to_map from './Just_to_learn/a7';
+// import A8 from './Just_to_learn/a8';
+// import A9 from './Just_to_learn/a9';
+import Handling_Forms from './Forms/Handling_Forms';
 
 function App() {
   return (
-
     <>
     {/* <Cls_com1/> */}
     {/* <br /> */}
@@ -49,9 +44,11 @@ function App() {
     {/* <Forms/> */}
     {/* <FormValidationDemo/> */}
     {/* <UseRefHookComponent/> */}
-    <UseRef/>
-
-    
+    {/* <UseRef/> */}
+    {/* <Are_to_map /> */}
+    {/* <A8/> */}
+    {/* <A9/> */}
+    <Handling_Forms/>
 
 </>
   );
