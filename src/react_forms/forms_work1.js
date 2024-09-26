@@ -18,7 +18,7 @@ export default function Forms() {
   return (
     <>
     <form  onSubmit={handleSubmit}>
-        <input type="text"  />
+         <input type="text"  />
          <input type='submit'/>
 
     </form>
