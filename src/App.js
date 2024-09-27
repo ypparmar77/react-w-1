@@ -1,4 +1,5 @@
-import './App.css';
+// import './Style.css'
+
 // import FormValidationDemo from './Just_to_learn/a5';
 // import Cls_com1 from './Class_Components/Components1.js';
 // import Event_work from './React_events/Events_w.js';
@@ -20,7 +21,10 @@ import './App.css';
 // import Are_to_map from './Just_to_learn/a7';
 // import A8 from './Just_to_learn/a8';
 // import A9 from './Just_to_learn/a9';
-import Handling_Forms from './Forms/Handling_Forms';
+// import Handling_Forms from './Forms/Handling_Forms';
+// import FormValidationDemo from './Just_to_learn/a5';
+
+import R_style from "./react_style/r_style";
 
 function App() {
   return (
@@ -48,8 +52,10 @@ function App() {
     {/* <Are_to_map /> */}
     {/* <A8/> */}
     {/* <A9/> */}
-    <Handling_Forms/>
-
+    {/* <Handling_Forms/> */}
+    {/* <FormValidationDemo/> */}
+    {/* <css_color/> */}
+    <R_style />
 </>
   );
 }

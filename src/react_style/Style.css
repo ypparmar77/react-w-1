@@ -1,0 +1,39 @@
+.like {
+    color: rgba(0, 0, 0, 0.667);
+    text-shadow: 0px 7px 5px black;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.work{
+    box-shadow: 0px 0px 15px rgb(27, 23, 23);
+    margin-top: 50px;    
+}
+
+.man{
+    background-color: skyblue;
+
+}
+
+.the_end{
+    background-color: black;
+    width: 100%;
+    height: 385px;
+    text-align: center;
+}
+
+.the_end .about{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.737);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+span{
+    color: rgba(255, 255, 255, 0.703);
+}
