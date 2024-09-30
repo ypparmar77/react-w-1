@@ -10,7 +10,6 @@ function FormValidationDemo() {
     // console.log(e.target);
     // console.log(formData, name, value);
     setFormData({ ...formData, [name]: value });
-    // Clear error message when user starts typing
     setErrors({ ...errors, [name]: "" });
   };
 
@@ -19,7 +18,6 @@ function FormValidationDemo() {
     const { email, password } = formData;
     let errors = {};
 
-    // Simple validation
     if (!email) {
       errors.email = "Email is required";
     }
@@ -31,7 +29,7 @@ function FormValidationDemo() {
     if (Object.keys(errors).length > 0) {
       setErrors(errors);
     } else {
-      // Form submission logic
+
       console.log("Email:", formData.email);
       console.log("Password:", formData.password);
     }
