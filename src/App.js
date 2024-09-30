@@ -1,6 +1,7 @@
 // import './Style.css'
 
 
+
 // { " My files just_to_learn files "} **************
 
 // import A1 from "./Just_to_learn/a1";
@@ -23,6 +24,8 @@
 // {'True files'} *********************
 
 // import Cls_com1 from "./Class_Components/Components1";
+// import OneFun from "./compontents_function/one-function.js";
+// import OneClass from "./components_class/oneclass";
 // import Handling_Forms from "./Forms/Handling_Forms";
 // import Useeffect from "./hook_works/Useeffect";
 // import UseRef from "./hook_works/useRef";
@@ -40,6 +43,9 @@ function App() {
   return (
     <>
     {/* <Cls_com1/> */}
+    {/* <OneFun/> */}
+    {/* <OneClass/> */}
+    {/* <OneClass/> */}
     {/* <Handling_Forms/> */}
     {/* <Useeffect/> */}
     {/* <UseRef/> */}
