@@ -1,18 +1,18 @@
 import React from 'react';
 import { useState ,useRef , useEffect } from 'react';
 
-function Usestate(){
+export default function Usestate(){
     let [on , off]=useState(0)
-    LET [colortime , setcolortime]=useState(true);
+    let [colortime , setcolortime]=useState(true);
     let abc = () =>{
         off(on + 1)
     }
-
     let h1 = useRef();
 
 //     let Abc = ()=>{
 //         h1.current.style.color = 'red';  
 //   }
+
 
     useEffect(() =>{
         setTimeout(()=>{
@@ -31,4 +31,3 @@ function Usestate(){
     )
 }
 
-export default Usestate

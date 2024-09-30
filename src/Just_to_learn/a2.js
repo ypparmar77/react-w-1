@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-export default function A1() {
+export default function A2() {
     const [work, setwork] = useState(0);
     const [isRunning, setIsRunning] = useState(true);
     let   [color , setcolor] = useState();

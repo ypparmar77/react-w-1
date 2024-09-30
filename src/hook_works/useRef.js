@@ -1,19 +1,17 @@
 import React, { useEffect, useRef , useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.css'
 
 const UseRef = () => {
 
     const [color,setcolor] = useState(" ");
     const [white,setwhite] = useState(" ");
 
-
-
     let a = useRef(); 
     let b = useRef(); 
     let c = useRef(); 
     let d = useRef(); 
     let e = useRef(); 
-
-
+    
     useEffect(() => {
         setTimeout(() => {
             a.current.style.color = 'green';

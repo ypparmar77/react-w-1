@@ -1,15 +1,18 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.css'
 
 export default function A9() {
 
-    const aery = [1,2,5,9,6,4,8];
+  let hadal_work = () =>{
+    alert("hy my name is yash")
+
+    console.log(alert)
+    
+  }
 
   return (
     <div>
-
-        <ul>
-            {aery.map((index) => <li key={index}>{index}</li>)}
-        </ul>
+      <button className='btn btn-success' onClick={hadal_work}>click me</button>
     </div>
   )
 }

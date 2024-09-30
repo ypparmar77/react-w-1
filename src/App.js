@@ -1,62 +1,80 @@
 // import './Style.css'
 
-// import FormValidationDemo from './Just_to_learn/a5';
-// import Cls_com1 from './Class_Components/Components1.js';
-// import Event_work from './React_events/Events_w.js';
-// import Props_validation1 from './props_work/props_validation1.js';
-// import Fun1 from './Abc/fun1.js';
-// import Usestate from './hook_works/usestate.js';
-// import Usestate_pro from './hook_works/Usestate_pro.js';
-// import A1 from './Just_to_learn/a1.js';
-// import A2 from './Just_to_learn/a2.js';
-// import Useeffect from './hook_works/Useeffect';
-// import UseEffectHookComponent from './Just_to_learn/a3';
-// import Todo from './Just_to_learn/a4';
-// import List1 from './Just_to_learn/a4';
-// import Lists from './React Lists/Lists';
-// import SimpleFormValidation from './Just_to_learn/a5';
-// import Forms from './react_forms/forms_work1';
-// import UseRefHookComponent from './Just_to_learn/a6';
-// import UseRef from './hook_works/useRef';
-// import Are_to_map from './Just_to_learn/a7';
-// import A8 from './Just_to_learn/a8';
-// import A9 from './Just_to_learn/a9';
-// import Handling_Forms from './Forms/Handling_Forms';
-// import FormValidationDemo from './Just_to_learn/a5';
 
-import R_style from "./react_style/r_style";
+// { " My files just_to_learn files "} **************
+
+// import A1 from "./Just_to_learn/a1";
+// import A2 from "./Just_to_learn/a2";
+// import UseEffectHookComponent from "./Just_to_learn/a3";
+// import A4 from "./Just_to_learn/a4"; list_work2
+// import FormValidationDemo from "./Just_to_learn/a5";
+// import UseRefHookComponent from "./Just_to_learn/a6";
+// import Are_to_map from "./Just_to_learn/a7";
+// import A8 from "./Just_to_learn/a8";
+// import A9 from "./Just_to_learn/a9";
+// import FormValidationDemo from "./Just_to_learn/a10";
+// import A11 from "./Just_to_learn/a11";
+
+
+// _______just_to_learn files_______________________________________________________________________________________________
+// _________________________________________________________________True files_____________________________________
+
+
+// {'True files'} *********************
+
+// import Cls_com1 from "./Class_Components/Components1";
+// import Handling_Forms from "./Forms/Handling_Forms";
+// import Useeffect from "./hook_works/Useeffect";
+// import UseRef from "./hook_works/useRef";
+// import Usestate_pro from "./hook_works/Usestate_pro";
+// import Usestate from "./hook_works/usestate";
+// import Props_validation1 from "./props_work/props_validation1";
+// import Lists from "./React Lists/Lists";
+// import Event_work from "./React_events/Events_w";
+// import FormValidationDemo from "./react_forms/forms_work1";
+// import R_style from "./react_style/r_style";
+import ParentComponent from "./props_work/props_par_chlid/ParentComponent";
+
 
 function App() {
   return (
     <>
     {/* <Cls_com1/> */}
-    {/* <br /> */}
-    {/* <Event_work /> */}
-    {/* <br /> */}
-    {/* <Props_validation1 /> */}
-    {/* <Fun1/> */}
+    {/* <Handling_Forms/> */}
+    {/* <Useeffect/> */}
+    {/* <UseRef/> */}
+    {/* <Usestate_pro/> */}
     {/* <Usestate/> */}
-    {/* <br/> */}
-    {/* <Usestate_pro /> */}
-    {/* <A1 name = {"apple"} /> */}
-    {/* <A2/> */}
-    {/* <Useeffect  /> */}
-    {/* <UseEffectHookComponent/> */}
-    {/* <List1/> */}
+    {/* <Props_validation1/> */}
     {/* <Lists/> */}
-    {/* <SimpleFormValidation/> */}
-    {/* <Forms/> */}
+    {/* <Event_work/> */}
+    {/* <FormValidationDemo/> */}
+    {/* <R_style/> */}
+    <ParentComponent/>
+
+
+
+    {/* // ______________________________________________________________________________________________
+// __________________________________________________________________________________________________ */}
+
+
+    {/* // { " My files just_to_learn files "} ************** */}
+
+    {/* <A1/> */}
+    {/* <A2/> */}
+    {/* <UseEffectHookComponent/> */}
+    {/* <A4/> */}
     {/* <FormValidationDemo/> */}
     {/* <UseRefHookComponent/> */}
-    {/* <UseRef/> */}
-    {/* <Are_to_map /> */}
+    {/* <Are_to_map/> */}
     {/* <A8/> */}
     {/* <A9/> */}
-    {/* <Handling_Forms/> */}
     {/* <FormValidationDemo/> */}
-    {/* <css_color/> */}
-    <R_style />
-</>
+    {/* <A11/> */}
+    {/* <Preanter/> */}
+
+
+    </>
   );
 }
 
