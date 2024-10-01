@@ -16,7 +16,7 @@ export default function Filter_List() {
 
             <ul className="list-group">
                 {items.filter((a) => {
-                        
+                                            
                         return a.toLowerCase().includes(text.toLowerCase())
 
                     })

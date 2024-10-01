@@ -12,12 +12,12 @@ export default  function Handling_Forms() {
 
   const handleSubmit = (e) => {
       e.preventDefault();
-    console.log(inputs);
+      console.log(inputs);
   }
 
   return (
     <form onSubmit={handleSubmit}>
-<label>Enter your name:
+<label>Enter your name: 
       <input type="text"name="username"value={inputs.username} onChange={handleChange}/>
        </label>
        <br /><br />

@@ -3,6 +3,7 @@
 
 
 
+
 // { " My files just_to_learn files "} **************
 
 // import A1 from "./Just_to_learn/a1";
@@ -38,7 +39,8 @@
 // import Event_work from "./React_events/Events_w";
 // import FormValidationDemo from "./react_forms/forms_work1";
 // import R_style from "./react_style/r_style";
-import ParentComponent from "./props_work/props_par_chlid/ParentComponent";
+import ParentComponent from "./props_work/props_par_chlid/ParentComponent.js";
+
 
 
 function App() {
