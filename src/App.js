@@ -1,8 +1,8 @@
+
 // import Cls_com1 from "./Class_Components/Components1";
 // import OneFun from "./compontents_function/one-function.js";
 // import OneClass from "./components_class/oneclass";
-// import Frome_work from "./Forms/Frome_work";
-import Handling_Forms from "./Forms/Handling_Forms";
+// import Handling_Forms from "./Forms/Handling_Forms";
 // import Useeffect from "./hook_works/Useeffect";
 // import UseRef from "./hook_works/useRef";
 // import Usestate_pro from "./hook_works/Usestate_pro";
@@ -13,7 +13,12 @@ import Handling_Forms from "./Forms/Handling_Forms";
 // import Event_work from "./React_events/Events_w";
 // import FormValidationDemo from "./react_forms/forms_work1";
 // import R_style from "./react_style/r_style";
+// import Parent from "./lifting_work/ParentComponent";
 // import ParentComponent from "./props_work/props_par_chlid/ParentComponent.js";
+import Frome_work from "./Forms/Frome_work";
+
+
+
 
 function App() {
   return (
@@ -22,7 +27,7 @@ function App() {
     {/* <OneFun/> */}
     {/* <OneClass/> */}
     {/* <OneClass/> */}
-    <Handling_Forms/>
+    {/* <Handling_Forms/> */}
     {/* <Useeffect/> */}
     {/* <UseRef/> */}
     {/* <Usestate_pro/> */}
@@ -34,7 +39,10 @@ function App() {
     {/* <FormValidationDemo/> */}
     {/* <R_style/> */}
     {/* <ParentComponent/> */}
-    {/* <Frome_work/> */}
+    {/* <Parent/> */}
+    <Frome_work/>
+
+    
     </>
   );
 }
