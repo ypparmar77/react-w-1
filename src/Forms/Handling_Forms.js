@@ -3,7 +3,7 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function Handling_Forms() {
-  const [inputs, setInputs] = useState({ email: [], password: [] });
+  const [inputs, setInputs] = useState({ email: "", password: "" });
   const [anser, setanser] = useState("");
 
   const handleChange = (e) => {

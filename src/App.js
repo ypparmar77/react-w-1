@@ -1,6 +1,7 @@
 // import Cls_com1 from "./Class_Components/Components1";
 // import OneFun from "./compontents_function/one-function.js";
 // import OneClass from "./components_class/oneclass";
+// import Frome_work from "./Forms/Frome_work";
 import Handling_Forms from "./Forms/Handling_Forms";
 // import Useeffect from "./hook_works/Useeffect";
 // import UseRef from "./hook_works/useRef";
@@ -33,8 +34,8 @@ function App() {
     {/* <FormValidationDemo/> */}
     {/* <R_style/> */}
     {/* <ParentComponent/> */}
+    {/* <Frome_work/> */}
     </>
   );
 }
-
 export default App;
