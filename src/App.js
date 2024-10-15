@@ -15,8 +15,21 @@
 // import R_style from "./react_style/r_style";
 // import Parent from "./lifting_work/ParentComponent";
 // import ParentComponent from "./props_work/props_par_chlid/ParentComponent.js";
-import Frome_work from "./Forms/Frome_work";
+// import Frome_work from "./Forms/Frome_work";
+// import CounterComponent from "./hook_works/custom_hook/CounterComponent";
+// import ParentComponent from "./hook_works/forwarding_ref/ParentComponent";
+//  import Froms from "./froms.js";
+// import ParentComponent from "./use_callback/ParentComponent";
+// import UseMemoComponent from "./UseMemoComponent";jo
+// import ManageCount  from './UseReducerComponent';
+// import UseEffectHookComponent from './UseEffectHookComponent';
+// import UseRefHookComponent from './UseRefHookComponent';
 
+import RouterComponent from "./router/RouterComponent";
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import Page1Component from "./router/Page1Component";
+import Page2Component from "./router/Page2Component";
+import DashboardComponent from "./router/DashboardComponent";
 
 
 
@@ -40,10 +53,42 @@ function App() {
     {/* <R_style/> */}
     {/* <ParentComponent/> */}
     {/* <Parent/> */}
-    <Frome_work/>
+    {/* <Frome_work/> */}
+    {/* <ParentComponent/> */}
+    {/* <CounterComponent/> */}
+    {/* <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter> */}
+    {/* <Froms/> */}
+    {/* <ParentComponent/> */}
+    {/* <UseMemoComponent/> */}
+    {/* <ManageCount/> */}
+    {/* <UseRefHookComponent/> */}
+    {/* <UseEffectHookComponent/> */}
+   
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<RouterComponent />}>
+            <Route index element={<DashboardComponent />} />
+            <Route path="/page-1" element={<Page1Component />} />
+            <Route path="/page-2" element={<Page2Component />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
 
-    
+
     </>
   );
 }
 export default App;
+
+
+
+

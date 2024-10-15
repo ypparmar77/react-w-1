@@ -14,7 +14,7 @@ export default function Useeffect() {
     // seteffect(0)
   }
   let Remove = ()=>{
-    seteffect(0)
+    seteffect(0);
   }
 
     let [effect , seteffect] = useState(0);
