@@ -31,8 +31,6 @@ import Page1Component from "./router/Page1Component";
 import Page2Component from "./router/Page2Component";
 import DashboardComponent from "./router/DashboardComponent";
 
-
-
 function App() {
   return (
     <>
@@ -82,8 +80,6 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-
-
     </>
   );
 }
