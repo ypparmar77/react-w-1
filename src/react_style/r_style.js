@@ -20,10 +20,11 @@ export default function R_style() {
      <button type="button" className="btn btn-light mx-2">Light button</button>
      <button type="button" className="btn btn-dark mx-2">Dark button</button>
      </div>
-
+     
      <div className='the_end'>
         <p className='about'>&copy; 2024 ypdeveloper6@gmail.com. All rights reserved.</p>
      </div>
+
     </div>
   ) 
 }

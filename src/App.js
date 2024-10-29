@@ -18,18 +18,27 @@
 // import Frome_work from "./Forms/Frome_work";
 // import CounterComponent from "./hook_works/custom_hook/CounterComponent";
 // import ParentComponent from "./hook_works/forwarding_ref/ParentComponent";
-//  import Froms from "./froms.js";
+// import Froms from "./froms.js";
 // import ParentComponent from "./use_callback/ParentComponent";
 // import UseMemoComponent from "./UseMemoComponent";jo
 // import ManageCount  from './UseReducerComponent';
 // import UseEffectHookComponent from './UseEffectHookComponent';
 // import UseRefHookComponent from './UseRefHookComponent';
+// import { BrowserRouter , Routes , Route } from "react-router-dom";
+// import About from "./React_router/About";
+// import Help from "./React_router/Help";
+// import Home from "./React_router/Home";
+// import Nevbar from "./React_router/Nevbar";
 
-import RouterComponent from "./router/RouterComponent";
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
-import Page1Component from "./router/Page1Component";
-import Page2Component from "./router/Page2Component";
-import DashboardComponent from "./router/DashboardComponent";
+import { BrowserRouter ,Routes ,Route } from 'react-router-dom';
+import Nevbar from './router_work/Nevbar';
+import About from './router_work/About';
+import Home from './router_work/Home';
+import Help from './router_work/Help';
+import Email from './router_work/Email';
+import Api_work from './router_work/post_work/Api_work';
+import Post_Work from './router_work/post_work/Post_api_work';
+
 
 function App() {
   return (
@@ -54,26 +63,28 @@ function App() {
     {/* <Frome_work/> */}
     {/* <ParentComponent/> */}
     {/* <CounterComponent/> */}
-    {/* <BrowserRouter>
-    </BrowserRouter> */}
     {/* <Froms/> */}
     {/* <ParentComponent/> */}
     {/* <UseMemoComponent/> */}
     {/* <ManageCount/> */}
     {/* <UseRefHookComponent/> */}
     {/* <UseEffectHookComponent/> */}
-   
-    <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<RouterComponent />}>
-            <Route index element={<DashboardComponent />} />
-            <Route path="/page-1" element={<Page1Component />} />
-            <Route path="/page-2" element={<Page2Component />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+
+   <BrowserRouter>
+   <Routes>
+    <Route path='/' element={<Nevbar/>}>
+    <Route index  element={<About/>} />
+    <Route path='/Help'  element={<Help/>} />
+    <Route path='/Home'  element={<Home/>} />
+    <Route path='/Email' element={<Email/>}/>
+    <Route path='/Api_work' element={<Api_work/>} />
+    <Route path='/Api_work/Post_Work/:id' element={<Post_Work/>} />
+    </Route>
+   </Routes> 
+   </BrowserRouter>
+
     </>
-  );
+  )
 }
 export default App;
 
